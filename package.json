@@ -1,0 +1,20 @@
+{
+  "name": "pencil-run",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy:vercel": "npm run build && npx vercel --prod --yes",
+    "deploy:netlify": "npm run build && npx netlify deploy --prod --dir=dist"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^5.4.11"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0"
+  }
+}
