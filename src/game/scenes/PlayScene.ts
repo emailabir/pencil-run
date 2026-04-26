@@ -291,6 +291,7 @@ export class PlayScene extends Phaser.Scene {
     }
 
     this.gameplayColliders = [];
+    this.inputSystem?.destroy();
     this.backgroundMusicSystem.stop();
   }
 }

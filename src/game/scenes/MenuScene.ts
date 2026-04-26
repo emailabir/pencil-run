@@ -24,10 +24,10 @@ export class MenuScene extends Phaser.Scene {
     this.add.text(
       width / 2,
       height * 0.42,
-      'Climb the notebook.\nAvoid obstacle lines.\nCollect lead and erasers.\nUse arrow keys to move left and right.\nUse X to erase.',
+      'Climb the notebook.\nAvoid obstacle lines.\nCollect lead and erasers.\nDesktop: Arrow keys move, X erases.\nTouch: Drag to move, double tap erases.',
       {
       fontFamily: 'Arial',
-      fontSize: '24px',
+      fontSize: '21px',
       color: '#344486',
       align: 'center',
       lineSpacing: 10,
